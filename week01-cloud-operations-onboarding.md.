@@ -1,0 +1,47 @@
+# Week 1: Cloud Operations Onboarding
+
+## HarborTech Ticket Summary
+For ticket ONB-2026-0001, I was asked to verify that my cloud environment was ready before starting client support work. The main purpose of the review was to make sure I could access AWS Academy and the Learner Lab, confirm the correct AWS Region, understand the IAM restrictions, and verify that I understood how the lab handles sessions, resources, budgets, and resets. I also needed to make sure I could access the AWS documentation and keep my work organized in the HarborTech Operations Playbook.
+
+## Client Impact
+Environment readiness is important because an intern should be able to access the required tools before working on a client issue. If the environment is not set up correctly, it could cause delays or lead to mistakes during support work. Checking access, permissions, regions, and cleanup procedures ahead of time helps make sure I can focus on the client instead of troubleshooting my own environment.
+
+## AWS Services Involved
+The onboarding review involved several AWS concepts and services. AWS Academy provides access to the learning environment, while the Learner Lab provides the AWS sandbox where I can practice using AWS resources. IAM controls what actions I am allowed to perform. I also confirmed the AWS Region being used by the lab, which was us-west-2 (Oregon). The AWS account provided through the Learner Lab is controlled by the lab environment and has limitations compared with a normal AWS account. AWS documentation was also used as a reference for understanding permissions and cloud operations.
+
+## Virtualization Connection
+Virtualization allows cloud infrastructure to provide resources without requiring me to directly manage the physical hardware. Instead of working with the physical servers themselves, I work with software-defined resources such as virtual machines and cloud services. Even with this abstraction, there are still important boundaries involving the AWS account, Region, permissions, available resources, costs, and the platform itself. Understanding these boundaries is important because virtualization does not remove the responsibility to operate the environment correctly.
+
+## Evidence Reviewed
+During Week 1, I reviewed several parts of the environment to confirm that it was ready. I was able to access AWS Academy and successfully start the Learner Lab. I confirmed that the console was using us-west-2 (Oregon).
+I also checked the IAM restrictions in the Learner Lab. One important limitation is that I cannot create or manage IAM users like I could in a regular AWS account. The lab provides limited permissions and expects me to work with the roles and resources that are already provided. I also reviewed the use of LabRole and LabInstanceProfile as part of the lab's permission structure.
+I reviewed the session behavior and confirmed that the Learner Lab environment is temporary and needs to be started when I need to work in it. I also reviewed the budget behavior and learned that the displayed budget balance may not update immediately after a resource is stopped. Because of this delay, the budget display should not be treated as real-time evidence that a resource is no longer creating costs.
+I reviewed the Reset behavior as well. Reset should not be used as a replacement for normal resource cleanup. I should stop or terminate resources that I create when I am finished using them.
+I was also able to access AWS documentation for additional information about AWS permissions and services. Finally, I confirmed that I am prepared to maintain my work in the GitHub HarborTech Operations Playbook and document the results of my onboarding review.
+
+## Operational Analysis
+The evidence shows that my environment is ready for the next stage of the course and support activities. I verified that I can access AWS Academy and the Learner Lab, confirmed the Region, and understand that my IAM permissions are limited by the Learner Lab environment.
+I also understand that the budget display is not an instant indicator of current resource costs and that I need to check my resources directly. I understand that cleanup is my responsibility and that I should not wait for the budget number to change or depend on Reset to handle resources for me.
+The verified findings are the access, Region, permission limitations, session behavior, and cleanup expectations that I directly reviewed. One assumption I should avoid making is that a resource has stopped costing money just because I stopped it or because the budget display has not changed yet. I should rely on the actual resource status and follow the lab's cleanup procedures instead.
+
+## Recommendation
+My environment is ready for Week 2 support work. I have verified the required AWS Academy and Learner Lab access, confirmed the Region, and understand the main restrictions and operating boundaries of the environment.
+The main next step is to continue following the cleanup process after each lab or support activity and document important findings in the HarborTech Operations Playbook.
+
+## Escalation Notes
+At this time, there are no unresolved access or environment issues that require escalation. AWS Academy and the Learner Lab are accessible, the Region has been confirmed, and I understand the IAM and Learner Lab limitations.
+
+## Lessons Learned
+Week 1 taught me that cloud operations readiness is more than just being able to log into AWS. I need to verify access, understand permissions, confirm the correct Region, and know the limitations of the environment before starting support work. I also learned that evidence is important because I should base my conclusions on what I actually verified instead of making assumptions.
+Another important lesson was that cloud resources need to be managed responsibly. The budget information can take time to update, so I should not use it as my main way of checking whether I cleaned up my resources. I should directly check my resources and clean up anything I am finished using. Overall, Week 1 showed me the importance of documentation, careful verification, and working within the boundaries of a cloud environment.
+
+Define the important Week 1 terms in your own words.
+Virtualization: A way of using software to create and manage virtual versions of computing resources instead of directly working with physical hardware.
+Evidence: Information or results that I can use to support what I say about the environment.
+Finding: Something I confirmed during the review based on the evidence I collected.
+Assumption: Something I believe may be true but have not actually verified.
+Escalation: Reporting an unresolved problem to the instructor or the appropriate person when I cannot fix it myself.
+Sandbox: A controlled environment where I can practice and test without directly working in a production environment.
+Region: A specific geographic AWS location where cloud resources are created and operated.
+IAM: AWS Identity and Access Management, which controls identities, roles, and permissions for accessing AWS resources.
+Operations Playbook: A documented collection of procedures, findings, and lessons that can be used to consistently perform and manage operational tasks.
