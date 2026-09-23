@@ -62,7 +62,7 @@ The S3 investigation resulted in the following configuration:
 * Object Key: index.html
 * Index Document: index.html
 * Static Website Hosting: Enabled
-* Website Endpoint: S3-generated website endpoint for the bucket
+* Website Endpoint: http://brightpath-site-jv-2026.s3-website-us-west-2.amazonaws.com
 * Website Access Test: 403 Forbidden
 
 After enabling static website hosting, I tested the S3 website endpoint. The request returned a 403 Forbidden response. This indicates that the Learner Lab environment did not allow the website content to be accessed publicly with the current configuration.
