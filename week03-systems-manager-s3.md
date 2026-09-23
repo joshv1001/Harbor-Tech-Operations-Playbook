@@ -129,25 +129,25 @@ The S3 portion of the lab also showed me that not every website needs a traditio
 
 ## Professional Vocabulary
 
--Systems Manager: An AWS service that provides centralized tools for managing and operating resources such as EC2 instances.
+- Systems Manager: An AWS service that provides centralized tools for managing and operating resources such as EC2 instances.
 
--Managed Node: An instance or system that has been configured so Systems Manager can communicate with and manage it.
+- Managed Node: An instance or system that has been configured so Systems Manager can communicate with and manage it.
 
--Run Command: A Systems Manager feature used to remotely execute commands on managed instances.
+- Run Command: A Systems Manager feature used to remotely execute commands on managed instances.
 
--Session Manager: A feature that provides interactive access to managed instances without requiring traditional remote-access methods.
+- Session Manager: A feature that provides interactive access to managed instances without requiring traditional remote-access methods.
 
--Inventory: A Systems Manager feature that collects information about systems, software, and configuration.
+- Inventory: A Systems Manager feature that collects information about systems, software, and configuration.
 
--Parameter Store: A service that provides centralized storage for configuration values that applications and automation can retrieve.
+- Parameter Store: A service that provides centralized storage for configuration values that applications and automation can retrieve.
 
--Automation: Using a defined process or technology to perform repeated tasks with less manual effort.
+- Automation: Using a defined process or technology to perform repeated tasks with less manual effort.
 
--Static Website Hosting: Hosting website files such as HTML, CSS, images, and downloadable documents without requiring server-side application processing.
+- Static Website Hosting: Hosting website files such as HTML, CSS, images, and downloadable documents without requiring server-side application processing.
 
--Object Storage: A method of storing individual files as objects, such as files stored inside an Amazon S3 bucket.
+- Object Storage: A method of storing individual files as objects, such as files stored inside an Amazon S3 bucket.
 
--Management Plane: The part of a cloud environment used to configure, control, monitor, and manage resources.
+- Management Plane: The part of a cloud environment used to configure, control, monitor, and manage resources.
 
 ## Week 3 Operational Evidence Summary
 
