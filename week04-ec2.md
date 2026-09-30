@@ -617,7 +617,7 @@ Finally, I learned the importance of cleanup. After the investigation was comple
 * **Escalation:** Passing an unresolved or higher-risk issue to the appropriate technical or business owner.
 * **Evidence-based troubleshooting:** Using observed command results and system behavior to identify the failure instead of guessing.
 
-* GitHub Playbook Entry URL
+## GitHub Playbook Entry URL
 
 Direct public file URL:
 
