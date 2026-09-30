@@ -616,5 +616,3 @@ Finally, I learned the importance of cleanup. After the investigation was comple
 * **Change control:** The process of reviewing and approving changes before applying them to a controlled environment.
 * **Escalation:** Passing an unresolved or higher-risk issue to the appropriate technical or business owner.
 * **Evidence-based troubleshooting:** Using observed command results and system behavior to identify the failure instead of guessing.
-
-https://github.com/joshv1001/Harbor-Tech-Operations-Playbook/blob/main/week04-ec2.md
